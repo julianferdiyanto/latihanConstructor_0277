@@ -5,3 +5,18 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+class Barang {
+public:
+    string namaBarang;
+    string kodeBarang;
+
+    // Constructor Berparameter
+    Barang(string nama, string kode){}
+
+    // Fungsi untuk menampilkan informasi barang
+    void tampilkanInfoBarang() {
+        cout << "Nama Barang = " << namaBarang << endl;
+        cout << "Kode Barang = " << kodeBarang << endl;
+    }
+};
