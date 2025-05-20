@@ -20,3 +20,13 @@ public:
         cout << "Kode Barang = " << kodeBarang << endl;
     }
 };
+
+int main(){
+    // Membuat objek Barang dengan constructor
+    Barang barang("Laptop Lenovo Ideopad Slim 5", "LIS001");
+
+    // Menampilkan informasi barang
+    barang.tampilkanInfoBarang();
+
+    return 0;
+}
